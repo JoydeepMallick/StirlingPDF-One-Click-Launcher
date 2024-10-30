@@ -2,35 +2,30 @@
 
 ## Motivation
 
-Laziness!!!
+Laziness!!! 
 
-We Windows users enjoy everthing to run on one click right so is the project intended to.
+I wanted to automate the process of starting Stirling PDF in Docker. This script will save you time and effort by launching Stirling PDF with a single click.
 
 ## Prerequisites
 
-Same as Docker installation guide of Stirling PDF
+Before you start, ensure you've completed the following steps from the Stirling PDF Docker installation guide:
 
-1. Install and setup Docker
+1. Install and set up Docker.
 
-2. Download the `froodle/s-pdf` file using `docker pull` command as mentioned in docs.
+2. Download the `froodle/s-pdf` image using the `docker pull` command as mentioned in the documentation.
 
-3. Run the `docker run` in terminal as mentions in docs.
+3. Run the `docker run` command in your terminal as specified in the docs.
 
-## Assumptions made
+## Assumptions
 
-Docker Desktop is installed in C drive
-
+Docker Desktop is installed on the C drive.
 
 ## How to Use
 
-After fulfilling prerequisites you no more need to launch Docker and then click on start to run Stirling pdf🥹.
+After completing the prerequisites, you no longer need to manually launch Docker and start Stirling PDF. Simply double-click the provided `.bat` file, and you're all set!
 
-Instead just one click is enough on the bat file provided here.
+If you're looking for customization, an `.exe` file is also available.
 
-Want some customization, I have made an exe file.
+## Note
 
-## NOTE
-
-This is only for the docker setup guide of Stirling PDF, other installation options will be considered.
-
-
+This solution is currently tailored for the Docker setup of Stirling PDF. Support for other installation options is on the way.
